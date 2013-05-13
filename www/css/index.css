@@ -110,39 +110,14 @@ h1 {
 background-image: url('../img/waltercalc_mobile.png');
 width: 320px;
 height: 480px;
+display: inline-block;
+float: left;
 }
 
 #part2
 {
 background-image: url('../img/waltercalc_mobile2.png');
-width: 320px;
+width: 0px;
 height: 480px;
-}
-
-table
-{
-margin: 0px;
-padding: 0px;
-border: none;
-}
-
-tr 
-{
-margin: 0px;
-padding: 0px;
-border: none;
-
-}
-
-td
-{
-margin: 0px;
-padding: 0px;
-border: none;
-}
-
-*
-{
-margin: 0px;
-padding: 0px;
+display: inline-block;
 }

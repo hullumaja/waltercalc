@@ -18,6 +18,16 @@ function ymardamine(n, l)
               
     			});
     			
+    			$("#slide").click(function()
+				{
+
+        			$("#part1").animate({width:'0px'}, function() {
+    $("#part1").css('display','none');
+  });
+        			$("#part2").animate({width:'320px'});
+              
+    			});
+    			
 
 				
 			});
