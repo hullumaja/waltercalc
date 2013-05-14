@@ -20,19 +20,94 @@
 <html>
     <head>
         <meta charset="utf-8" />
-        <meta name="format-detection" content="telephone=no" />
-        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+
+<meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  
+    <link rel="stylesheet" href="https://d10ajoocuyu32n.cloudfront.net/mobile/1.3.1/jquery.mobile-1.3.1.min.css">
+
+  
         <link rel="stylesheet" type="text/css" href="css/index.css" />
-        <script type="text/javascript" src="js/jquery.js"></script>
-        <script type="text/javascript" src="js/jquery.mobile-1.3.1.min.js"></script>
+
+  <script src="https://d10ajoocuyu32n.cloudfront.net/jquery-1.9.1.min.js"></script>
+  <script src="https://d10ajoocuyu32n.cloudfront.net/mobile/1.3.1/jquery.mobile-1.3.1.min.js"></script>
+
+
         <script type="text/javascript" src="js/walter.js"></script>
         <title>WalterCalc Mobile</title>
     </head>
     <body>
-        <a href="result.html" data-transition="flip">I'll flip</a> 
+        <!-- Home -->
+<!-- Home -->
+<div data-role="page" id="page1">
+    <div data-theme="a" data-role="header">
+        <h3>
+            WalterCalc
+        </h3>
+    </div>
+    <div data-role="content">
+        <div style=" text-align:center">
+            <img style="width: 61px; height: 62px" src="img/walter_logo.png">
+        </div>
+        <h4>
+            Mul on:
+        </h4>
+        <div data-role="fieldcontain">
+            <label for="eur">
+                eurosid
+            </label>
+            <input name="" id="eur" placeholder="" value="" data-mini="true" type="number">
+        </div>
+        <div data-role="fieldcontain">
+            <label for="sent">
+                sente
+            </label>
+            <input maxlength="2" name="" id="sent" placeholder="" value="" type="number">
+        </div>
+    </div>
+    <div data-theme="a" data-role="footer" data-position="fixed">
+        <div data-role="navbar" data-iconpos="left">
+            <ul>
+                <li>
+                    <a id="nupp1" href="#page2" data-transition="flip" data-theme="" data-icon="check">
+                        Mitu Walterit ma saan?
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
 
+
+<div data-role="page" id="page2">
+    <div data-theme="a" data-role="header">
+        <h3>
+            Tulemused
+        </h3>
+    </div>
+    <div data-role="content">
+        <div style=" text-align:center">
+            <img style="width: 61px; height: 62px" src="img/walter_logo.png">
+        </div>
+        
+        <span id="yes2"></span>.<span id="yes3"></span><span> euro eest saad sa </span><span id="yes"></span><span> walterit</span>
         
         
+        
+    </div>
+    <div data-theme="a" data-role="footer" data-position="fixed">
+        <div data-role="navbar" data-iconpos="left">
+            <ul>
+                <li>
+                    <a href="#page1" data-transition="flip" data-theme="" data-icon="check">
+                        Tagasi
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
         
         <script type="text/javascript" src="phonegap.js"></script>
         <script type="text/javascript" src="js/index.js"></script>
