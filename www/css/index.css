@@ -24,7 +24,7 @@ body {
     -webkit-touch-callout: none;                /* prevent callout to copy image, etc when tap to hold */
     -webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
     -webkit-user-select: none;                  /* prevent copy paste, to allow, change 'none' to 'text' */
-    background-color:#fff;
+    background-color:#eaeaea;
 
     background-attachment:fixed;
     font-family:'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;
@@ -32,9 +32,9 @@ body {
     height:100%;
     margin:0px;
     padding:0px;
-    text-transform:uppercase;
+
     width:100%;
-    background-image: url('../img/waltercalc_mobile.png');
+
 }
 
 /* Portrait layout (default) */
@@ -107,4 +107,20 @@ h1 {
 }
 
 
+#eur
+{
+background-color: #fff;
+width: 20%;
+margin-left: 41%;
+padding-left: 5px;
+color: #979797;
+}
 
+#sent
+{
+background-color: #fff;
+width: 20%;
+margin-left: 41%;
+padding-left: 5px;
+color: #979797;
+}
